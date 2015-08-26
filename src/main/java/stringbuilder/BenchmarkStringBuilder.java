@@ -61,6 +61,14 @@ public class BenchmarkStringBuilder {
     }
 
     @Benchmark
+    public void literalConcat() {
+        List<String> strings = new ArrayList<>();
+        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
+            strings.add("perenquen".concat("guachinche").concat("chimichange").concat("escaldón"));
+        }
+    }
+
+    @Benchmark
     public void literalStringBuilder() {
         List<String> strings = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
@@ -77,6 +85,18 @@ public class BenchmarkStringBuilder {
         String escaldon = "escaldón";
         for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
             strings.add(perenquen + guachinche + chimichange + escaldon);
+        }
+    }
+
+    @Benchmark
+    public void variableConcat() {
+        List<String> strings = new ArrayList<>();
+        String perenquen = "perenquen";
+        String guachinche = "guachinche";
+        String chimichange = "chimichange";
+        String escaldon = "escaldón";
+        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
+            strings.add(perenquen.concat(guachinche).concat(chimichange).concat(escaldon));
         }
     }
 
@@ -101,6 +121,15 @@ public class BenchmarkStringBuilder {
     }
 
     @Benchmark
+    public void constantConcat() {
+        List<String> strings = new ArrayList<>();
+        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
+            strings.add(PERENQUEN.concat(GUACHINCHE).concat(CHIMICHANGE).concat(ESCALDÓN));
+        }
+    }
+
+
+    @Benchmark
     public void constantStringBuilder() {
         List<String> strings = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
@@ -114,6 +143,15 @@ public class BenchmarkStringBuilder {
         String guachinche = "guachinche";
         for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
             strings.add(PERENQUEN + guachinche + createChimichanga() + "escaldón");
+        }
+    }
+
+    @Benchmark
+    public void callFunctionConcat() {
+        List<String> strings = new ArrayList<>();
+        String guachinche = "guachinche";
+        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
+            strings.add(PERENQUEN.concat(guachinche).concat(createChimichanga()).concat("escaldón"));
         }
     }
 
@@ -132,6 +170,15 @@ public class BenchmarkStringBuilder {
         String guachinche = "guachinche";
         for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
             strings.add(PERENQUEN + guachinche + "chimichange" + "escaldón");
+        }
+    }
+
+    @Benchmark
+    public void constantVariableLiteralConcat() {
+        List<String> strings = new ArrayList<>();
+        String guachinche = "guachinche";
+        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
+            strings.add(PERENQUEN.concat(guachinche).concat("chimichange").concat("escaldón"));
         }
     }
 

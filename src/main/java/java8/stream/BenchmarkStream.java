@@ -44,7 +44,6 @@ import java.util.stream.Collectors;
 
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @BenchmarkMode(Mode.AverageTime)
-@OperationsPerInvocation(BenchmarkStream.N)
 public class BenchmarkStream {
 
     public static final int N = 1000;
