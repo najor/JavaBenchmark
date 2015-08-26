@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.regexp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../OptionalAndStream/src/OptionalMain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/java/builder/BenchmarkStringBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/java/stringbuilder/BenchmarkStringBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/java8/stream/BenchmarkIntegerList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/java8/stream/BenchmarkSquare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/java8/stream/BenchmarkStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/agoncal/sample/java8/BenchmarkIntegerList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/agoncal/sample/java8/BenchmarkSquare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/agoncal/sample/jmh/Benchmark2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/agoncal/sample/jmh/BenchmarkIntegerList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/agoncal/sample/jmh/BenchmarkSquare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/agoncal/sample/jmh/MyBenchmark.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/stringbuilder/BenchmarkStringBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/RELEASE_NOTES.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppBase-Core/src/main/resources/TIA-AppBase-Core-Context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppBase-Core/src/test/java/com/tia/appbase/core/service/ContextTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppCM/src/main/java/com/tia/appcm/browser/AbstractAppCMBrowser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppCM/src/main/java/com/tia/appcm/mvp/view/detail/impl/AppCMGroupAssignmentDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppCM/src/main/java/com/tia/appcm/mvp/view/detail/impl/AppCMPermissionAssignmentDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppCM/src/main/java/com/tia/appcm/mvp/view/detail/impl/AppCMRoleAssignmentDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-AppCM/src/main/java/com/tia/appcm/toolbar/AbstractAppCMToolbar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-CM-Core/src/test/java/com/tia/cm/core/service/ContextTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-CM-DataService/src/test/java/com/tia/cm/ds/ContextTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-Common-Utils/src/main/java/com/tia/common/utils/CommonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-Common-Utils/src/test/java/com/tia/common/CommonTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-Common-Utils/src/test/java/com/tia/common/utils/CommonUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-Config/src/test/java/com/tia/configuration/ContextTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-Form-Framework/src/main/resources/TIA-FormFramework-Context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-FreeCirculation/src/main/java/com/tia/freecirculation/toolbar/EgzToolbar.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="cc7c0e99-eed1-43a6-a387-8a3691eadb4f" />
+                <option name="line" value="29" />
+                <option name="message" value="Make &quot;context&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-FreeCirculation/src/main/java/com/tia/freecirculation/toolbar/EzaPosToolbar.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="f16bc3e0-2840-425c-852c-519418cc3159" />
+                <option name="line" value="29" />
+                <option name="message" value="Make &quot;context&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="b892f669-eaf7-4d5b-9fbc-928c3de8c1b5" />
+                <option name="message" value="1 duplicated blocks of code." />
+                <option name="ruleKey" value="common-java:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-FreeCirculation/src/main/java/com/tia/freecirculation/toolbar/ZszPosToolbar.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="04988664-dfe9-432e-b6cb-4a33a7b99aac" />
+                <option name="message" value="1 duplicated blocks of code." />
+                <option name="ruleKey" value="common-java:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="18c5b50a-5419-4fcc-9060-5f9484182ebe" />
+                <option name="line" value="29" />
+                <option name="message" value="Make &quot;context&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-FreeCirculation/src/main/java/com/tia/freecirculation/windows/FreeCirculationBeAuswVm.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="3adc718d-421a-438e-92ad-bd728f9f7cc6" />
+                <option name="line" value="71" />
+                <option name="message" value="Make &quot;context&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="0259358b-0d45-46d1-803b-166c5309295d" />
+                <option name="message" value="Replace all tab characters in this file by sequences of white-spaces." />
+                <option name="ruleKey" value="squid:S00105" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="a02afe84-4b1c-4343-83cb-61f0861ea641" />
+                <option name="line" value="369" />
+                <option name="message" value="Immediately return this expression instead of assigning it to the temporary variable &quot;findedBean&quot;." />
+                <option name="ruleKey" value="squid:S1488" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="d55d39dc-b436-49a6-95a0-6d9ef553d0b0" />
+                <option name="line" value="79" />
+                <option name="message" value="Make &quot;listCollectionFormCommonDto&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="aee9f773-6e4a-4a04-8e04-46fcb4854c71" />
+                <option name="line" value="355" />
+                <option name="message" value="Introduce a new variable instead of reusing the parameter &quot;listConverted&quot;." />
+                <option name="ruleKey" value="squid:S1226" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-I18N-ComponentShared/src/main/java/com/tia/i18n/cs/util/I18NConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-I18N-DataService/src/test/java/com/tia/i18n/ds/ContextTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/ConfirmWindow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/ToolButton.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="6e39cd07-a097-4e29-9042-aac86971ec4c" />
+                <option name="line" value="27" />
+                <option name="message" value="Rename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'." />
+                <option name="ruleKey" value="squid:S00117" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="7d34ea58-8c2b-4359-824f-a9ca5e93e5f3" />
+                <option name="line" value="23" />
+                <option name="message" value="Rename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'." />
+                <option name="ruleKey" value="squid:S00117" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/Window.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="727fd780-d09d-4d2b-b791-e501b9720589" />
+                <option name="message" value="Replace all tab characters in this file by sequences of white-spaces." />
+                <option name="ruleKey" value="squid:S00105" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="a6f6ee4b-b867-4bc5-8b32-76bc5d7a97bf" />
+                <option name="message" value="1 duplicated blocks of code." />
+                <option name="ruleKey" value="common-java:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/component/IConfirmCallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/component/enums/ToolButtonType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/component/listener/AbstractConfirmListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/main/java/com/tia/ui/component/util/ComponentUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-Components/src/test/java/com/tia/ui/ComponentUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/browser/AbstractBrowserEvents.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/component/AbstractListComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/component/RegistrationSelectWindow.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="c85fd5de-eba4-4534-b656-ce524342d0e2" />
+                <option name="message" value="2 duplicated blocks of code." />
+                <option name="ruleKey" value="common-java:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/component/ResultTreeComponent.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="37c99fed-340b-4368-9d86-169243c2d298" />
+                <option name="message" value="Replace all tab characters in this file by sequences of white-spaces." />
+                <option name="ruleKey" value="squid:S00105" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/component/SearchFunctionForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/component/SearchFunctionFormUtils.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="42e3784f-3646-4f3c-9ba8-81e3feefbeec" />
+                <option name="line" value="344" />
+                <option name="message" value="Complete the task associated to this TODO comment." />
+                <option name="ruleKey" value="squid:S1135" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/mvp/form/AbstractDynamicForm.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="43785616-8eb8-4b21-beaf-c53f34af28f1" />
+                <option name="line" value="57" />
+                <option name="message" value="Make &quot;dependantServices&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="4e46257a-639c-414c-aa32-66434bba2e8b" />
+                <option name="line" value="154" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;tia-form-editable&quot; 4 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="3b3291ab-b74f-4238-97b9-15a9da09b190" />
+                <option name="line" value="353" />
+                <option name="message" value="Introduce a new variable instead of reusing the parameter &quot;visibleButtonSwitchDcl&quot;." />
+                <option name="ruleKey" value="squid:S1226" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="dc581023-b457-4554-877d-5eba93636133" />
+                <option name="line" value="153" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;tia-form-read-only&quot; 4 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="30be900f-635a-4703-b3af-6f1d7dd9da80" />
+                <option name="line" value="327" />
+                <option name="message" value="Remove the declaration of thrown exception 'com.tia.formframework.binder.exceptions.BindException' which is a subclass of another one." />
+                <option name="ruleKey" value="squid:RedundantThrowsDeclarationCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="23f7368d-60ed-4ce5-a1d9-ad249006e14d" />
+                <option name="line" value="283" />
+                <option name="message" value="Remove this unnecessary cast to &quot;Entry&quot;." />
+                <option name="ruleKey" value="squid:S1905" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="769a514c-5d3b-4097-9b06-ad6de892c108" />
+                <option name="line" value="359" />
+                <option name="message" value="Introduce a new variable instead of reusing the parameter &quot;visibleButtonSwitchDcl&quot;." />
+                <option name="ruleKey" value="squid:S1226" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="06c81e66-5b0f-4cfb-acc6-d08939e62afc" />
+                <option name="line" value="356" />
+                <option name="message" value="Introduce a new variable instead of reusing the parameter &quot;visibleButtonSwitchDcl&quot;." />
+                <option name="ruleKey" value="squid:S1226" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="dbec0942-03a3-4953-a0f5-b7b034d868ae" />
+                <option name="line" value="59" />
+                <option name="message" value="Make &quot;warningErrors&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/toolbar/AbstractAppToolbar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/main/java/com/tia/formframework/window/AbstractSearchWindow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-FormFramework/src/test/java/com/tia/formframework/component/SearchFunctionFormTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-HubNavigation/src/main/java/com/tia/ui/hubnavigation/presenters/PrintPresenter.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="6a9973b8-0070-4142-91f3-c58a1c534bb1" />
+                <option name="line" value="202" />
+                <option name="message" value="The type of the &quot;paramValues&quot; object should be an interface such as &quot;Map&quot; rather than the implementation &quot;HashMap&quot;." />
+                <option name="ruleKey" value="squid:S1319" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="a86067e9-aeaf-4203-a9e8-a2119da8fe8c" />
+                <option name="line" value="249" />
+                <option name="message" value="Either log or rethrow this exception." />
+                <option name="ruleKey" value="squid:S1166" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="8601d41b-91a6-4dfc-94d2-d95b5a15db0f" />
+                <option name="line" value="211" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;actionsRouter :: &quot; 3 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="7554fd1c-1c74-44d1-a016-3d7ea2ed0ce5" />
+                <option name="line" value="551" />
+                <option name="message" value="The type of the &quot;paramsValues&quot; object should be an interface such as &quot;Map&quot; rather than the implementation &quot;HashMap&quot;." />
+                <option name="ruleKey" value="squid:S1319" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="e887f6dd-05e0-4e7e-a652-8e9808308562" />
+                <option name="line" value="884" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="61222b66-0baf-479e-b0a0-0b1cd10123db" />
+                <option name="line" value="583" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;FIRMEN_NR&quot; 11 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="c053d08c-9148-4b95-be98-1c9550f9e6b9" />
+                <option name="line" value="886" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="8fcbb29d-4784-4b62-a3d8-3e75f7bc37c0" />
+                <option name="line" value="102" />
+                <option name="message" value="Make &quot;notification&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="694f14c9-da1f-417f-af12-18baaa0af4c0" />
+                <option name="line" value="582" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;FIRMENNR&quot; 12 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="c7d6e83f-6d06-41e2-8ac8-a14ae66418ad" />
+                <option name="line" value="147" />
+                <option name="message" value="Immediately return this expression instead of assigning it to the temporary variable &quot;auth&quot;." />
+                <option name="ruleKey" value="squid:S1488" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="d61688c9-34e1-43b5-a969-7110ce52a13e" />
+                <option name="line" value="94" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="0768c9ac-4c45-4501-ad01-b8ce82af384c" />
+                <option name="line" value="256" />
+                <option name="message" value="The type of the &quot;reportFilteredList&quot; object should be an interface such as &quot;Map&quot; rather than the implementation &quot;HashMap&quot;." />
+                <option name="ruleKey" value="squid:S1319" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="87d294eb-8b25-4d03-867a-f0c22dcd7e50" />
+                <option name="line" value="663" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="4f0ce865-ec3c-4af5-b834-db00feddcd9f" />
+                <option name="line" value="644" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="937b5dbc-785f-4ae1-a42d-7f3db6e5da36" />
+                <option name="line" value="857" />
+                <option name="message" value="Take the required action to fix the issue indicated by this comment." />
+                <option name="ruleKey" value="squid:S1134" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="5f1e25f2-ce03-4c92-bbab-9ab72dbb6568" />
+                <option name="line" value="880" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="c6a1cdfa-5a98-4df6-a9f8-9d2e59604d48" />
+                <option name="line" value="643" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;ID_REF_CCVK&quot; 3 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="efeaedb8-315a-45c2-9942-65703f5e48e5" />
+                <option name="line" value="852" />
+                <option name="message" value="Take the required action to fix the issue indicated by this comment." />
+                <option name="ruleKey" value="squid:S1134" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="9bc6aada-cdcf-4254-b047-8f16937d79d4" />
+                <option name="line" value="878" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="02c84928-95f2-4097-93ba-f491a10e64ed" />
+                <option name="line" value="691" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;SUBREPORT_DIR&quot; 5 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="3f6387fb-b326-40f8-8658-615982a2d4bb" />
+                <option name="line" value="726" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="916e2af2-77a9-4cec-8237-27f401375304" />
+                <option name="line" value="882" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="c4704f69-8329-40e9-9062-934798263428" />
+                <option name="line" value="449" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="02a7408c-9915-4ad5-a087-42c601b11c50" />
+                <option name="line" value="619" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;BEZUG_NR&quot; 21 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="6943b18e-e2ca-4d0e-a4e7-2c0ac6847f6d" />
+                <option name="line" value="86" />
+                <option name="message" value="Make &quot;eventBus&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="142c7726-47d1-45af-9f5c-651ea085ea1d" />
+                <option name="line" value="405" />
+                <option name="message" value="Move this closing curly brace to the next line." />
+                <option name="ruleKey" value="squid:RightCurlyBraceStartLineCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="f32338ef-a765-4f03-9888-5a9feaa9749c" />
+                <option name="line" value="696" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="97af261d-6f63-41b8-9b7f-dafc840a4fbf" />
+                <option name="line" value="486" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="964c565d-0a87-4fbf-8b65-8eb81031ef70" />
+                <option name="line" value="729" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;ID_VK&quot; 4 times." />
+                <option name="ruleKey" value="squid:S1192" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="01b5c347-f1e1-4cc4-a226-15354005e0bf" />
+                <option name="line" value="856" />
+                <option name="message" value="Remove this unnecessary cast to &quot;PrintableFormDto&quot;." />
+                <option name="ruleKey" value="squid:S1905" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="536dcf67-4838-4e47-811a-003914647ff9" />
+                <option name="line" value="148" />
+                <option name="message" value="Complete the task associated to this TODO comment." />
+                <option name="ruleKey" value="squid:S1135" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="ed24ef96-7043-4c04-ad12-58451244f5aa" />
+                <option name="line" value="200" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="f0da8410-5b24-43cd-86b9-85eaf1103ba8" />
+                <option name="line" value="336" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="ae0ba47d-cb00-4277-ab27-1f09a17a351f" />
+                <option name="line" value="89" />
+                <option name="message" value="Make &quot;reportingService&quot; transient or serializable." />
+                <option name="ruleKey" value="squid:S1948" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="cbda7fe2-adb4-49d8-80fd-e92e2de6fef9" />
+                <option name="line" value="665" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="09616f5e-0e62-458e-ad8b-b80ebcc03206" />
+                <option name="line" value="181" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="93214418-4656-46f2-a5ba-467cbbcb793f" />
+                <option name="line" value="876" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="997b842f-52bf-4362-b44a-3a2c779015a7" />
+                <option name="line" value="888" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="15c677ee-d2e3-4200-98d8-a816f67f791e" />
+                <option name="line" value="226" />
+                <option name="message" value="The type of the &quot;reportFilteredList&quot; object should be an interface such as &quot;Map&quot; rather than the implementation &quot;HashMap&quot;." />
+                <option name="ruleKey" value="squid:S1319" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="a7452379-2b30-4ff7-a60d-b9f64016db10" />
+                <option name="line" value="661" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-HubNavigation/src/main/java/com/tia/ui/hubnavigation/view/nav/DetailPanelView.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="true" />
+                <option name="key" value="5972e8c4-1fac-4593-86d2-6475d8f064e3" />
+                <option name="line" value="23" />
+                <option name="message" value="Remove this unused import 'com.tia.common.factory.IFactory'." />
+                <option name="ruleKey" value="squid:UselessImportCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tia/TIA-UI-HubNavigation/src/main/resources/TIA-UI-HubNavigation-Context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
