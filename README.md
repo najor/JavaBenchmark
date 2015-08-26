@@ -1,5 +1,4 @@
-# JavaBenchmark
-<h2>Benchmarking of Java</h2>
+<h1>Benchmarking of Java</h1>
 
 Some benchmarking to test Java functionalities:
 
