@@ -7,4 +7,4 @@ Some benchmarking to test Java functionalities:
 <li>Stream vs Collection</li>
 </ul>
 
-For Benchmarking, the JMH library is used (see <a link="http://openjdk.java.net/projects/code-tools/jmh/">JMH</a>).
+The JMH library is used to benchmark the Java. (see <a link="http://openjdk.java.net/projects/code-tools/jmh/">JMH</a>).
