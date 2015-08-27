@@ -48,13 +48,6 @@ public class BenchmarkStream {
 
     public static final int N = 1000;
 
-    static List<Integer> sourceList = new ArrayList<>();
-    static {
-        for (int i = 0; i < N; i++) {
-            sourceList.add(i);
-        }
-    }
-
     static List<Integer> integers;
     static Integer sum;
     static {
@@ -88,8 +81,8 @@ public class BenchmarkStream {
 
     @Benchmark
     public List<Double> squareCollection() {
-        List<Double> result = new ArrayList<>(sourceList.size() / 2 + 1);
-        for (Integer i : sourceList) {
+        List<Double> result = new ArrayList<>(integers.size() / 2 + 1);
+        for (Integer i : integers) {
             if (i % 2 == 0){
                 result.add(Math.sqrt(i));
             }
@@ -99,11 +92,11 @@ public class BenchmarkStream {
 
     @Benchmark
     public List<Double> squareStream() {
-        return sourceList.stream()
+        return integers.stream()
                 .filter(i -> i % 2 == 0)
                 .map(Math::sqrt)
                 .collect(Collectors.toCollection(
-                        () -> new ArrayList<>(sourceList.size() / 2 + 1)));
+                        () -> new ArrayList<>(integers.size() / 2 + 1)));
     }
 
     public static void main(String[] args) throws RunnerException {
