@@ -3,7 +3,9 @@
 Some benchmarking to test Java functionalities:
 
 <ul>
-<li>String operator (+) vs StringBuilder</li>
+<li>String operator (+) vs StringBuilder vs String.concat vs StringJoiner
+<ul><li>It test String creation for <strong>short length</strong> of strings.</li></ul>
+</li>
 <li>Stream vs Collection</li>
 </ul>
 
