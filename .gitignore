@@ -1,5 +1,6 @@
 .idea/
 target/
+*.csv
 performance.iml
 pom.xml.tag
 pom.xml.releaseBackup

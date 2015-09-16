@@ -32,6 +32,7 @@
 package stringbuilder;
 
 import org.openjdk.jmh.annotations.*;
+import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -39,41 +40,54 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringJoiner;
 import java.util.concurrent.TimeUnit;
 
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @BenchmarkMode(Mode.AverageTime)
-@OperationsPerInvocation(BenchmarkStringBuilder.NUMBER_OF_STRINGS_TO_CREATE)
 public class BenchmarkStringBuilder {
 
-    static final int NUMBER_OF_STRINGS_TO_CREATE = 100000;
     private static final String PERENQUEN = "perenquen";
     private static final String GUACHINCHE = "guachinche";
-    private static final String CHIMICHANGE = "chimichange";
+    private static final String CHIMICHANGA = "chimichanga";
     private static final String ESCALDÓN = "escaldón";
+    private static final String DELIMITER = ":";
+
+    public static void main(String[] args) throws RunnerException {
+        Options opt = new OptionsBuilder()
+                .include(BenchmarkStringBuilder.class.getSimpleName())
+                .resultFormat(ResultFormatType.CSV)
+                .build();
+
+        new Runner(opt).run();
+    }
 
     @Benchmark
     public void literalPlus() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add("perenquen" + "guachinche" + "chimichange" + "escaldón");
-        }
+
+        strings.add("perenquen" + ":" + "guachinche" + ":" + "chimichanga" + ":" + "escaldón");
     }
 
     @Benchmark
     public void literalConcat() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add("perenquen".concat("guachinche").concat("chimichange").concat("escaldón"));
-        }
+
+        strings.add("perenquen".concat(":").concat("guachinche").concat(":").concat("chimichanga").concat(":").concat("escaldón"));
     }
 
     @Benchmark
     public void literalStringBuilder() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(new StringBuilder("perenquen").append("guachinche").append("chimichange").append("escaldón").toString());
-        }
+
+        strings.add(new StringBuilder("perenquen").append(":").append("guachinche").append(":").append("chimichanga").append(":").append("escaldón").toString());
+    }
+
+    @Benchmark
+    public void literalStringJoiner() {
+        List<String> strings = new ArrayList<>();
+
+        strings.add(new StringJoiner(":").add("perenquen").add("guachinche").add("chimichanga").add("escaldón").toString());
     }
 
     @Benchmark
@@ -81,11 +95,11 @@ public class BenchmarkStringBuilder {
         List<String> strings = new ArrayList<>();
         String perenquen = "perenquen";
         String guachinche = "guachinche";
-        String chimichange = "chimichange";
+        String chimichanga = "chimichanga";
         String escaldon = "escaldón";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(perenquen + guachinche + chimichange + escaldon);
-        }
+        String delimiter = ":";
+
+        strings.add(perenquen + delimiter + guachinche + delimiter + chimichanga + delimiter + escaldon);
     }
 
     @Benchmark
@@ -93,11 +107,11 @@ public class BenchmarkStringBuilder {
         List<String> strings = new ArrayList<>();
         String perenquen = "perenquen";
         String guachinche = "guachinche";
-        String chimichange = "chimichange";
+        String chimichanga = "chimichanga";
         String escaldon = "escaldón";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(perenquen.concat(guachinche).concat(chimichange).concat(escaldon));
-        }
+        String delimiter = ":";
+
+        strings.add(perenquen.concat(delimiter).concat(guachinche).concat(delimiter).concat(chimichanga).concat(delimiter).concat(escaldon));
     }
 
     @Benchmark
@@ -105,102 +119,131 @@ public class BenchmarkStringBuilder {
         List<String> strings = new ArrayList<>();
         String perenquen = "perenquen";
         String guachinche = "guachinche";
-        String chimichange = "chimichange";
+        String chimichanga = "chimichanga";
         String escaldon = "escaldón";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(new StringBuilder(perenquen).append(guachinche).append(chimichange).append(escaldon).toString());
-        }
+        String delimiter = ":";
+
+        strings.add(new StringBuilder(perenquen).append(delimiter).append(guachinche).append(delimiter).append(chimichanga).append(delimiter).append(escaldon).toString());
+    }
+
+    @Benchmark
+    public void variableStringJoiner() {
+        List<String> strings = new ArrayList<>();
+        String perenquen = "perenquen";
+        String guachinche = "guachinche";
+        String chimichanga = "chimichanga";
+        String escaldon = "escaldón";
+        String delimiter = ":";
+
+        strings.add(new StringJoiner(delimiter).add(perenquen).add(guachinche).add(chimichanga).add(escaldon).toString());
     }
 
     @Benchmark
     public void constantPlus() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(PERENQUEN + GUACHINCHE + CHIMICHANGE + ESCALDÓN);
-        }
+
+        strings.add(PERENQUEN + DELIMITER + GUACHINCHE + DELIMITER + CHIMICHANGA + DELIMITER + ESCALDÓN);
     }
 
     @Benchmark
     public void constantConcat() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(PERENQUEN.concat(GUACHINCHE).concat(CHIMICHANGE).concat(ESCALDÓN));
-        }
+
+        strings.add(PERENQUEN.concat(DELIMITER).concat(GUACHINCHE).concat(DELIMITER).concat(CHIMICHANGA).concat(DELIMITER).concat(ESCALDÓN));
     }
 
 
     @Benchmark
     public void constantStringBuilder() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(new StringBuilder(PERENQUEN).append(GUACHINCHE).append(CHIMICHANGE).append(ESCALDÓN).toString());
-        }
+
+        strings.add(new StringBuilder(PERENQUEN).append(DELIMITER).append(GUACHINCHE).append(DELIMITER).append(CHIMICHANGA).append(DELIMITER).append(ESCALDÓN).toString());
+    }
+
+    @Benchmark
+    public void constantStringJoiner() {
+        List<String> strings = new ArrayList<>();
+
+        strings.add(new StringJoiner(DELIMITER).add(PERENQUEN).add(GUACHINCHE).add(CHIMICHANGA).add(ESCALDÓN).toString());
     }
 
     @Benchmark
     public void callFunctionPlus() {
         List<String> strings = new ArrayList<>();
         String guachinche = "guachinche";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(PERENQUEN + guachinche + createChimichanga() + "escaldón");
-        }
+        String delimiter = ":";
+
+        strings.add(PERENQUEN + DELIMITER + guachinche + delimiter + createChimichanga() + getDelimiter() + "escaldón");
     }
 
     @Benchmark
     public void callFunctionConcat() {
         List<String> strings = new ArrayList<>();
         String guachinche = "guachinche";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(PERENQUEN.concat(guachinche).concat(createChimichanga()).concat("escaldón"));
-        }
+        String delimiter = ":";
+
+        strings.add(PERENQUEN.concat(DELIMITER).concat(guachinche).concat(delimiter).concat(createChimichanga()).concat(getDelimiter()).concat("escaldón"));
     }
 
     @Benchmark
     public void callFunctionStringBuilder() {
         List<String> strings = new ArrayList<>();
         String guachinche = "guachinche";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(new StringBuilder(PERENQUEN).append(guachinche).append(createChimichanga()).append("escaldón").toString());
-        }
+        String delimiter = ":";
+
+        strings.add(new StringBuilder(PERENQUEN).append(DELIMITER).append(guachinche).append(delimiter).append(createChimichanga()).append(getDelimiter()).append("escaldón").toString());
+    }
+
+    @Benchmark
+    public void callFunctionStringJoiner() {
+        List<String> strings = new ArrayList<>();
+        String guachinche = "guachinche";
+        String delimiter = ":";
+
+        strings.add(new StringJoiner(DELIMITER).add(PERENQUEN).add(guachinche).add(createChimichanga()).add("escaldón").toString());
     }
 
     @Benchmark
     public void constantVariableLiteralPlus() {
         List<String> strings = new ArrayList<>();
         String guachinche = "guachinche";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(PERENQUEN + guachinche + "chimichange" + "escaldón");
-        }
+        String delimiter = ":";
+
+        strings.add(PERENQUEN + DELIMITER + guachinche + delimiter + "chimichanga" + ":" + "escaldón");
     }
 
     @Benchmark
     public void constantVariableLiteralConcat() {
         List<String> strings = new ArrayList<>();
         String guachinche = "guachinche";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(PERENQUEN.concat(guachinche).concat("chimichange").concat("escaldón"));
-        }
+        String delimiter = ":";
+
+        strings.add(PERENQUEN.concat(DELIMITER).concat(guachinche).concat(delimiter).concat("chimichanga").concat(":").concat("escaldón"));
     }
 
     @Benchmark
     public void constantVariableLiteralStringBuilder() {
         List<String> strings = new ArrayList<>();
         String guachinche = "guachinche";
-        for (int i = 0; i < NUMBER_OF_STRINGS_TO_CREATE; i++) {
-            strings.add(new StringBuilder(PERENQUEN).append(guachinche).append("chimichange").append("escaldón").toString());
-        }
+        String delimiter = ":";
+
+        strings.add(new StringBuilder(PERENQUEN).append(DELIMITER).append(guachinche).append(delimiter).append("chimichanga").append(":").append("escaldón").toString());
+    }
+
+    @Benchmark
+    public void constantVariableLiteralStringJoiner() {
+        List<String> strings = new ArrayList<>();
+        String guachinche = "guachinche";
+        String delimiter = ":";
+
+        strings.add(new StringJoiner(DELIMITER).add(PERENQUEN).add(guachinche).add("chimichanga").add("escaldón").toString());
     }
 
     private String createChimichanga() {
-        return "chimichange";
+        return "chimichanga";
     }
 
-    public static void main(String[] args) throws RunnerException {
-        Options opt = new OptionsBuilder()
-                .include(BenchmarkStringBuilder.class.getSimpleName())
-                .build();
-
-        new Runner(opt).run();
+    private String getDelimiter() {
+        return DELIMITER;
     }
-
 }
